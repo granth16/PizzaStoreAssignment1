@@ -24,8 +24,8 @@ class RestaurantCard extends React.Component {
 
           <h3 id="hotel-title">{this.props.name}</h3>
           <p>Rating: {"★".repeat(this.props.rating)}</p>
-          <p>price: {this.props.price}</p>
-          <p>description: {this.props.description}</p>
+          <p>Price: {this.props.price}</p>
+          <p>Description: {this.props.description}</p>
         </center>
         <Link to ="/Order">
             <center>
