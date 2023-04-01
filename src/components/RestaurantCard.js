@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router , Route, Link } from "react-router-dom";
+import "../components/RestaurantCard.css";
 
 import data from "../data/data.json";
 class RestaurantCard extends React.Component {
@@ -28,7 +29,7 @@ class RestaurantCard extends React.Component {
         </center>
         <Link to ="/Order">
             <center>
-            <button>Add to Cart</button>
+            <button className="button1">Add to Cart</button>
             </center>
         </Link>
       </div>
